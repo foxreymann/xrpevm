@@ -55,9 +55,9 @@ function App() {
                setMyBalance(ethers.utils.formatEther(balance));
             })
         }
-      }}>Get your banana balance</button>
+      }}>Get your balance</button>
 
-      <h3>{ myBalance ? "You have" : ""} {myBalance} { myBalance ? "bananas" : ""}</h3>
+      <h3>{ myBalance ? "You have" : ""} {myBalance} { myBalance ? "$LESSIE" : ""}</h3>
     </div>
   );
 }
